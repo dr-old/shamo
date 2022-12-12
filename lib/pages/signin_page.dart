@@ -38,7 +38,7 @@ class SignInPage extends StatelessWidget {
     Widget emailInput() {
       return Container(
         margin: EdgeInsets.only(
-          top: 20,
+          top: 70,
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
