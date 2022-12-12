@@ -93,7 +93,7 @@ class SignUpPage extends StatelessWidget {
     Widget usernameInput() {
       return Container(
         margin: EdgeInsets.only(
-          top: 50,
+          top: 20,
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
