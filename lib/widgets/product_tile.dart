@@ -16,19 +16,10 @@ class ProductTile extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Container(
-            padding: EdgeInsets.symmetric(
-              vertical: 20,
-            ),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(
-                20,
-              ),
-              color: primaryTextColor,
-            ),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(12),
             child: Image.asset(
               'assets/product/nike-1.png',
-              height: 70,
               width: 120,
               fit: BoxFit.fill,
             ),

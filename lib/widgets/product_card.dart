@@ -16,7 +16,7 @@ class ProductCard extends StatelessWidget {
       ),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: primaryTextColor,
+        color: whiteColor,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
