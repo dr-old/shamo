@@ -40,14 +40,13 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Container(
-              width: 54,
-              height: 54,
+              width: 64,
+              height: 64,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: secondaryColor,
                 image: DecorationImage(
                   image: AssetImage(
-                    'assets/icons8-profile-90.png',
+                    'assets/icons8-male-user-96.png',
                   ),
                 ),
               ),
