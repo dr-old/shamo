@@ -20,6 +20,7 @@ Color transparentColor = Colors.transparent;
 Color blackColor = Color(0xff2e2e2e);
 Color yellowColor = Color(0xfffad701);
 Color whiteColor = Color(0xfff6f6f6);
+Color greyColor = Color(0xffc4c4c4);
 
 TextStyle primaryTextStyle = GoogleFonts.poppins(color: primaryTextColor);
 TextStyle secondaryTextStyle = GoogleFonts.poppins(color: secondaryTextColor);
